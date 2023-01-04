@@ -1,6 +1,6 @@
 package saramin.dev.team4.springstudy.domain.item;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import saramin.dev.team4.springstudy.domain.Category;
 import saramin.dev.team4.springstudy.exception.NotEnoughStockException;
 import lombok.Getter;

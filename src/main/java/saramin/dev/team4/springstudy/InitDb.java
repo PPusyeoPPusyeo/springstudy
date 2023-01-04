@@ -1,6 +1,6 @@
 package saramin.dev.team4.springstudy;
 
-import jakarta.persistence.EntityManager;
+import javax.persistence.EntityManager;
 import org.springframework.beans.factory.InitializingBean;
 import saramin.dev.team4.springstudy.domain.*;
 import saramin.dev.team4.springstudy.domain.item.Book;

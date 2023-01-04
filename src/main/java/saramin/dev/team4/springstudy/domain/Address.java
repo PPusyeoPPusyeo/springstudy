@@ -1,6 +1,6 @@
 package saramin.dev.team4.springstudy.domain;
 
-import jakarta.persistence.Embeddable;
+import javax.persistence.Embeddable;
 import lombok.Getter;
 
 @Embeddable

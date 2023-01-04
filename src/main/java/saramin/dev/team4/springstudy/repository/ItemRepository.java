@@ -1,6 +1,6 @@
 package saramin.dev.team4.springstudy.repository;
 
-import jakarta.persistence.EntityManager;
+import javax.persistence.EntityManager;
 import saramin.dev.team4.springstudy.domain.item.Item;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;

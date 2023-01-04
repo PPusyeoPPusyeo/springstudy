@@ -1,6 +1,6 @@
 package saramin.dev.team4.springstudy.service;
 
-import jakarta.persistence.EntityManager;
+import javax.persistence.EntityManager;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import saramin.dev.team4.springstudy.domain.Member;

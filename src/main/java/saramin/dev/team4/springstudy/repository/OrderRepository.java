@@ -1,8 +1,8 @@
 package saramin.dev.team4.springstudy.repository;
 
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.TypedQuery;
-import jakarta.persistence.criteria.*;
+import javax.persistence.EntityManager;
+import javax.persistence.TypedQuery;
+import javax.persistence.criteria.*;
 import org.springframework.stereotype.Repository;
 import org.springframework.util.StringUtils;
 import saramin.dev.team4.springstudy.domain.Order;

@@ -1,6 +1,5 @@
 package saramin.dev.team4.springstudy.controller;
 
-import jakarta.validation.Valid;
 import saramin.dev.team4.springstudy.domain.Address;
 import saramin.dev.team4.springstudy.domain.Member;
 import saramin.dev.team4.springstudy.service.MemberService;
@@ -11,6 +10,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @Controller

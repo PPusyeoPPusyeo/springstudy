@@ -1,6 +1,6 @@
 package saramin.dev.team4.springstudy.domain;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import saramin.dev.team4.springstudy.domain.item.Item;
