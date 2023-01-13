@@ -5,6 +5,9 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+## jpa querydsl 패키지
+**/querydslstudy/
+
 ### STS ###
 .apt_generated
 .classpath

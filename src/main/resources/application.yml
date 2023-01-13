@@ -1,7 +1,9 @@
 spring:
   datasource:
+#    url: jdbc:h2:tcp://localhost/~/querydsl
     url: jdbc:h2:tcp://localhost/~/test
     username: sa
+#    password: 1234
     password:
     driver-class-name: org.h2.Driver
   jpa:
@@ -14,4 +16,4 @@ spring:
 
 logging.level:
   org.hibernate.SQL: debug
-#  org.hibernate.type: trace
+  org.hibernate.type: trace
